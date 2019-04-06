@@ -1,0 +1,9 @@
+[01-May-2018 16:35:55 Europe/Helsinki] PHP Notice:  Undefined index: pol1 in /home/accrentc/acc.voyage/post.php on line 14
+[01-May-2018 16:35:55 Europe/Helsinki] PHP Notice:  Undefined index: pol3 in /home/accrentc/acc.voyage/post.php on line 17
+[01-May-2018 16:35:55 Europe/Helsinki] PHP Notice:  Undefined index: pol4 in /home/accrentc/acc.voyage/post.php on line 18
+[01-May-2018 16:35:55 Europe/Helsinki] PHP Notice:  Undefined index: pol5 in /home/accrentc/acc.voyage/post.php on line 20
+[01-May-2018 16:35:55 Europe/Helsinki] PHP Notice:  Undefined index: pol6 in /home/accrentc/acc.voyage/post.php on line 21
+[01-May-2018 16:35:55 Europe/Helsinki] PHP Notice:  Undefined index: ft in /home/accrentc/acc.voyage/post.php on line 22
+[01-May-2018 16:35:55 Europe/Helsinki] PHP Notice:  Undefined index: ft2 in /home/accrentc/acc.voyage/post.php on line 23
+[01-May-2018 16:35:55 Europe/Helsinki] PHP Notice:  Undefined variable: ft3 in /home/accrentc/acc.voyage/post.php on line 47
+[07-May-2018 15:29:03 Europe/Helsinki] PHP Notice:  Undefined variable: ft3 in /home/accrentc/acc.voyage/post.php on line 47

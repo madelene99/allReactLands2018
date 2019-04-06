@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<meta name="viewport" content="width=480px, initial-scale=1">
+	
+
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400|Lato:300,400|Roboto+Condensed:300,400|Roboto:300,400" rel="stylesheet">
+	<style type="text/css">
+		body{padding: 0;
+			margin: 0;}
+.leftfix{
+	position: absolute;
+	left: 5%;
+    top: 10%;
+}
+.fix1 {
+  font-size: 36px;
+  font-family: "Comfortaa";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.667;
+   
+ 
+}
+.fix2 {
+  font-size: 24px;
+  font-family: "Roboto Condensed";
+  color: rgb(254, 191, 52);
+  line-height: 1.5;
+   
+  
+}
+.fix3 {
+  font-size: 18px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+   
+   
+}
+
+.wrap{
+	background: url(fon1.png);
+	background-size: cover; 
+	width: 100%;
+	min-height: 100%;
+	min-height: 100vh;
+	    display: flex;
+    align-items: center;
+}
+.centerwrap{
+	max-width: 519px;
+	margin: 0 auto;
+	display: flex;
+	    flex-direction: column;
+	    width: 100%;
+}
+.textblock1{
+	background: url(fon2.png) no-repeat top center;
+	padding: 0px 25px;
+	padding-top: 30px;
+    padding-top: 96px;
+    padding-bottom: 59px;
+
+}
+.t1{
+  font-size: 24px;
+  font-family: "Comfortaa";
+  color: rgb(254, 191, 52);
+  font-weight: bold;
+  line-height: 2.917;
+  text-align: center;
+ 
+}
+.t2 {
+  font-size: 22px;
+  font-family: "Roboto Condensed";
+  color: rgb(221, 221, 221);
+  line-height: 2.3;
+  text-align: center;
+  
+}
+.price {
+  font-size: 36px;
+  font-family: "Lato";
+  color: rgb(221, 221, 221);
+  font-weight: bold;
+  line-height: 1.944;
+  text-align: center;
+     margin-top: 37px;
+}
+.u1 {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: left;
+  float: left;
+  
+}
+.u2 {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.778;
+  text-align: right;
+ float: right;
+}
+
+
+.but {
+  font-size: 15px;
+  font-family: "Comfortaa";
+  color: rgb(254, 191, 52);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 63px;
+  text-align: center;
+  background: url(button.png);
+  width: 226px;
+margin: 0 auto;
+clear: both;
+margin-top: 21px;
+}
+
+.rightfixblock{
+	position: absolute;
+	bottom: 25%;
+    right: 5%;
+
+ 
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+
+
+   
+}
+
+
+.textunderblock{
+    max-width: 381px;
+    margin: 0 auto;
+    width: 100%;
+        margin-top: -28px;
+
+}
+
+
+	
+.zagolovok {
+  font-size: 34px;
+  font-family: "Comfortaa";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.667;
+      text-align: center;
+    margin-bottom: 35px;
+ 
+}
+
+.formfon{
+	background: rgba(0,0,0,0.4);
+	padding: 30px;
+}
+.formfon .pole{
+	max-width: 445px;
+	width: 100%;
+	height: 41px;
+	border-radius: 24px;
+	margin-bottom: 10px;
+
+	 
+  font-size: 18px;
+  font-family: "Roboto Condensed";
+  color: rgb(0, 0, 0);
+  line-height: 3.889;
+  text-align: left;
+  text-indent: 20px;
+   
+
+}
+
+ .pole::-webkit-input-placeholder {
+ font-size: 18px;
+  font-family: "Roboto Condensed";
+  color: rgb(0, 0, 0);
+  line-height: 3.889;
+  text-align: left;
+
+   }
+   .pole:-ms-input-placeholder {  font-size: 18px;
+  font-family: "Roboto Condensed";
+  color: rgb(0, 0, 0);
+  line-height: 3.889;
+  text-align: left;
+}
+   .pole::-ms-input-placeholder { font-size: 18px;
+  font-family: "Roboto Condensed";
+  color: rgb(0, 0, 0);
+  line-height: 3.889;
+  text-align: left;
+}
+   .pole::placeholder {  font-size: 18px;
+  font-family: "Roboto Condensed";
+  color: rgb(0, 0, 0);
+  line-height: 3.889;
+  text-align: left;
+
+}
+
+
+.formfon .but{
+	border: 0px;
+    display: block;
+    line-height: 59px;
+        padding-top: 31px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.ft1 {
+  font-size: 18px;
+  font-family: "Roboto Condensed";
+  color: rgb(255, 255, 255);
+  line-height: 3.889;
+  text-align: left;
+ 
+}
+
+.ft2 {
+	 
+  font-size: 18px;
+  font-family: "Comfortaa";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.889;
+  text-align: left;
+  
+}
+.contrad {
+float: left;	 
+	width: 225px;
+}
+ 
+
+
+
+ 
+.screen2{display: none}
+
+
+
+
+
+
+@media (max-width: 1350px){
+	.fix1 {
+		font-size: 32px;
+	}
+	.rightfixblock{
+		    right: 2%;
+	}
+}
+@media (max-width: 1230px){
+
+	.rightfixblock{
+		    right: 5%;
+		    width: 204px;
+	}
+
+	.leftfix{
+		    width: 237px;
+	}
+
+}
+
+@media (max-width: 965px){
+
+		.leftfix {
+   width: 100%;
+    position: relative;
+    text-align: center;
+    max-width: 413px;
+    margin: 0 auto;
+    margin-top: 35px;
+    left: auto;
+    top: auto;
+}
+
+.price{
+	margin-top: 24px;
+}
+
+.rightfixblock {
+    
+    
+    position: relative;
+     max-width: 381px;
+    margin: 0 auto;
+    width: 100%;
+    right: auto;
+    margin: 20px auto;
+}
+
+
+
+
+}
+
+
+
+
+@media (max-width: 500px){
+  
+  .t2{
+        line-height: 1.95;    font-size: 20px;
+  }
+  .price{
+        margin-top: 44px;
+  }
+  .wrap{
+    padding: 0px 5px;
+    width: calc(100% - 10px);
+  }
+
+  .textblock1{
+    width: calc(100% - 55px);
+  }
+
+
+.centerwrap {
+    max-width: 320px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+	</style>
+</head>
+<body>
+	
+	<div class="wrap">
+	<div class="centerwrap screen1">
+		<div class="leftfix">
+			<div class="fix1">AccVoyage<br>
+FB Accs Setup Service</div>
+			<div class="fix2">Save your time & efforts<br>
+Focus on mediabuying    </div>
+			<div class="fix3">discount for 10 accs - 10%<br>
+20 accs - 15%<br>
+30 accs - 20%</div>
+		</div>
+		<div class="textblock1">
+			<div class="t1">Default</div>
+			<div class="t2">
+				3+ years aged personal account*<br>
+				1 week old page + 5 posts<br>
+				$25 page warm-up<br>
+				1 hour a day full acc access + Qwaya
+			</div>
+			<div class="price">$750</div>
+		</div>
+		<div class="textunderblock">
+			<div class="u1">
+				$50 post warm-up<br>
+24h acc access<br>
+card service** 
+			</div>
+			<div class="u2">
+				+ $50<br>
++ $100<br>
++ $200
+			</div>
+		</div>
+		
+		<div class="rightfixblock">*monthly acc maintenance fee $100 (starting from 2nd month)<br>
+**unlimited daily spend, top-up fees 3-4%</div>
+
+<div class="but">sign up</div>
+
+
+	</div>
+
+ 
+
+	<div class="centerwrap screen2">
+		<div class="zagolovok">AccVoyage Service - SIGN UP</div>
+		<div class="formfon">
+			<form action="post.php" method="POST" accept-charset="UTF-8">
+				<input type="text" name=pol1 class="pole" placeholder="Your name *" required="required">
+				 
+				<input type="email" name=pol2 class="pole" placeholder="Email address *" required="required">
+				<input type="text" name=pol3 class="pole" placeholder="Your country *" required="required">
+				<input type="text" name=pol4 class="pole" placeholder="Skype address *" required="required">
+				 
+				<input type="text" name=pol5 class="pole" placeholder="How did you hear about AccVoyage Service? *" required="required">
+				 
+
+				<div class="ft1">What is your level of experience? *</div>
+				<div class="ft2">
+					<div class="contrad">
+					<input type="radio" checked="checked" required="required" name="ft" id="fc1" value="Novice">
+					<label for="fc1">Novice</label></div>
+					<div class="contrad">
+					<input type="radio" required="required" name="ft" id="fc2" value="Advanced beginner">
+					<label for="fc2">Advanced beginner</label></div>
+					<div class="contrad">
+					<input type="radio"  required="required" name="ft" id="fc3" value="Proficient">
+					<label for="fc3">Proficient</label></div>
+					<div class="contrad">
+					<input type="radio"  required="required" name="ft" id="fc4" value="Expert">
+					<label for="fc4">Expert</label></div>
+					 
+				</div>
+				<input type="submit" class="but" value="Submit">
+			</form>
+		</div>
+	</div>
+	</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		$(".screen1 .but").click(function() {
+			$(".screen1").hide();
+			$(".screen2").show();
+		});
+		
+	});
+</script>
+
+</html>
